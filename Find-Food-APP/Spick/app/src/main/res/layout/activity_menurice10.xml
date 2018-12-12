@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    android:background="@drawable/background6"
+
+    >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+        android:isScrollContainer="true">
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="品項	 "
+                android:textSize="25dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="價格"
+                android:textSize="25dp"
+                />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="豚丼"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="110"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="牛丼 "
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="130"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="親子丼 "
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="130"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="雞腿丼"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="160"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="鮮魚丼"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="150"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="卡滋丼	 "
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="160"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="魚排丼"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="160"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="唐揚雞丼 "
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="180"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="日式咖哩雞肉飯"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="130"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="滑嫩蛋包飯"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="100"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="起司蛋包飯"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="130"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="厚切豬排蛋包飯"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="170"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="脆皮魚排蛋包飯"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="170"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+        <TableRow
+        android:gravity="center">
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="廣島燒豬排蛋包飯"
+            android:textSize="20dp"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="170"
+            android:textSize="20dp"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+    </TableRow>
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="起司豬排蛋包飯"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="199"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="茄汁蛋包飯"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="110"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="X魔爪肋排丼飯"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="390"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+

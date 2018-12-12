@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rice4Activity"
+    android:background="@drawable/background2"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background2"
+        tools:context=".rice4Activity">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="17dp"
+            android:text="菜單"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="152dp"
+            android:layout_toStartOf="@+id/reset"
+            android:text="433台中市沙鹿區北英路110巷3號"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="196dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="77dp"
+            app:srcCompat="@drawable/rice4"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-60dp"
+            android:text="今天吃:飯鋪子"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="299dp" />
+
+        <ImageButton
+            android:id="@+id/reset"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="51dp"
+            android:layout_marginEnd="38dp"
+            android:background="@drawable/reset" />
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/reset"
+            android:layout_centerHorizontal="true"
+            android:background="@android:drawable/ic_menu_sort_by_size" />
+
+        <ImageButton
+            android:id="@+id/homebtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/reset"
+            android:layout_marginStart="38dp"
+            android:background="@drawable/home" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/reset"
+            android:layout_alignTop="@+id/textView4"
+            android:text="再選一次"
+            android:textSize="21sp" />
+
+        <ImageButton
+            android:id="@+id/map"
+            android:layout_width="53dp"
+            android:layout_height="52dp"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/map" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="36dp"
+        android:text="回主畫面"
+        android:textSize="21sp" />
+</RelativeLayout>

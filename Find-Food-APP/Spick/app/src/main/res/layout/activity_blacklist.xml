@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentlinearLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blacklistActivity"
+    android:background="@drawable/background4"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/txt_edit1"
+            android:layout_width="22dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:hint="txt..."
+            android:inputType="text"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txt_edit2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:hint="txt..."
+            android:inputType="text"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="39dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:onClick="onDelete"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="Del" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="新增"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>

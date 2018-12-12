@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.spick">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".chooseActivity" />
+        <activity android:name=".resultActivity" />
+        <activity android:name=".LoadingActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".shoplistActivity" />
+        <activity android:name=".favoriteActivity" />
+        <activity android:name=".blacklistActivity" />
+        <activity android:name=".nramdon1" />
+        <activity android:name=".nramdon2" />
+        <activity android:name=".nramdon3" />
+        <activity android:name=".nramdon4" />
+        <activity android:name=".nramdon5" />
+        <activity android:name=".nramdon6" />
+        <activity android:name=".nramdon7" />
+        <activity android:name=".nramdon8" />
+        <activity android:name=".nramdon9" />
+        <activity android:name=".nramdon10" />
+        <activity android:name=".nramdon11" />
+        <activity android:name=".nramdon12" />
+        <activity android:name=".nramdon13" />
+        <activity android:name=".nramdon14" />
+        <activity android:name=".nramdon15" />
+        <activity android:name=".menu1" />
+        <activity android:name=".menu2" />
+        <activity android:name=".menu3" />
+        <activity android:name=".menu4" />
+        <activity android:name=".menu5" />
+        <activity android:name=".menu6" />
+        <activity android:name=".menu7" />
+        <activity android:name=".menu8" />
+        <activity android:name=".menu9" />
+        <activity android:name=".menu10" />
+        <activity android:name=".menu11" />
+        <activity android:name=".menu12" />
+        <activity android:name=".menu13" />
+        <activity android:name=".menu14" />
+        <activity android:name=".menu15" />
+        <activity android:name=".rice4Activity" />
+        <activity android:name=".menurice4" />
+        <activity android:name=".rice5" />
+        <activity android:name=".menurice5" />
+        <activity android:name=".noodles1" />
+        <activity android:name=".menunoodles1" />
+        <activity android:name=".rice6" />
+        <activity android:name=".rice7" />
+        <activity android:name=".rice8" />
+        <activity android:name=".rice9" />
+        <activity android:name=".rice10" />
+        <activity android:name=".menurice6" />
+        <activity android:name=".menurice7" />
+        <activity android:name=".menurice8" />
+        <activity android:name=".menurice9" />
+        <activity android:name=".menurice10" />
+        <activity android:name=".noodles2" />
+        <activity android:name=".noodles3" />
+        <activity android:name=".noodles4" />
+        <activity android:name=".menunoodles2" />
+        <activity android:name=".menunoodles3" />
+        <activity android:name=".menunoodles4" />
+        <activity android:name=".hotpot1" />
+        <activity android:name=".hotpot2" />
+        <activity android:name=".hotpot3" />
+        <activity android:name=".menuhotpot1" />
+        <activity android:name=".menuhotpot2" />
+        <activity android:name=".menuhotpot3" />
+        <activity android:name=".bun1" />
+        <activity android:name=".bun2" />
+        <activity android:name=".bun3" />
+        <activity android:name=".menubun1" />
+        <activity android:name=".menubun2" />
+        <activity android:name=".menubun3"></activity>
+    </application>
+
+</manifest>

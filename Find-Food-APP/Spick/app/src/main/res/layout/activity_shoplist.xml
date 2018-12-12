@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    android:background="@drawable/background4"
+
+    >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+        android:isScrollContainer="true">
+
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/dragon"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton2"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/happy" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="龍門客棧 "
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="歡歡滷肉飯"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/gi"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton4"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/machi" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="紀豆花 "
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="麻吉炒飯"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/westwest"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton6"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/shenkung" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="西西里義大利麵"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="深坑什麼鍋"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/old"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton8"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/chen" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="老牌石頭小火鍋 "
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="陳家水餃"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/happy2"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton10"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/big" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="幸福麵館"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="大丸早午餐店"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/enough"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton12"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/mini" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="飽食 "
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="微豆豆花"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/rice4"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton14"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/rice5" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="飯鋪子 "
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="福井蓋飯"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/rice6"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton16"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/rice7" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="完食 "
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="排骨飯"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/rice8"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton18"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/rice9" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="嘉鄰快餐 "
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="九龍城"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/rice10"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton20"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/noodles1" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="ㄨ麻尹 "
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="榞拉麵"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/noodles2"
+                android:gravity="center" />
+
+            <ImageButton
+                android:gravity="center"
+                android:id="@+id/imageButton22"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/noodles3" />
+
+        </TableRow>
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="風味屋 "
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="碗美麵鋪"
+                android:textSize="25dp" />
+
+
+        </TableRow> <TableRow
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:background="@drawable/noodles4"
+            android:gravity="center" />
+
+        <ImageButton
+            android:gravity="center"
+            android:id="@+id/imageButton24"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:background="@drawable/hotpot1" />
+
+    </TableRow>
+
+    </TableLayout>
+
+
+
+</ScrollView>
+
+
